@@ -8,9 +8,10 @@ def guessingGame():
     randNum = random.randint(1, 100)
     print("Welcome to the number guessing game!")
     print("I'm thinking of a number between 1 and 100.")
-    print("You have 6 guesses to get it right!")
+    print("You have log2(100), or 7, guesses to get it right!")
+    print("HINT: Think like a Binary Search engine.")
 
-    while guesses < 6:
+    while guesses < 7:
         guess = int(input("Now, what is your guess? "))
         if guess == randNum:
             print("Correct!")
