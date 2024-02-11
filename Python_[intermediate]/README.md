@@ -15,6 +15,6 @@ In my experience, a sound and organized Approach creates a smoother development 
 
 ```
 "A journey of a thousand miles starts with a single step...
-But if you sprain your ankle on the first step you will not finish the journey by the deadline."
+But if you sprain your ankle on the first step you will not finish the journey on time."
 ```
 - me, 2024
