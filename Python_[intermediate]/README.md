@@ -4,7 +4,8 @@
 https://www.youtube.com/watch?v=NpmFbWO6HPU
 
 # Personal Goal:
-The goal of this exorcise is to the go through the entire 9h youtube video by doing the following:
+The goal of this exercise is to the go through the entire 9h youtube video by doing the following:
+
     - Attempt to create each program without assistance in half an hour or less
     - If I get stuck, watch 5 minutes into the video to determine if my approach was sound
     - return from first step
