@@ -8,9 +8,9 @@ The goal of this exercise is to the go through the entire 9h youtube video by do
 
     - Attempt to create each program without assistance in half an hour or less
     - If I get stuck, watch 5 minutes into the video to determine if my approach was sound
-    - return from first step
+    - return to first step
 
-The end result should assist in a developing a better 'System of Approach' to programming problems.
+The end result should assist in a developing a better 'System of Approach' to programming problems. <br>
 In my experience, a sound and organized Approach creates a smoother development path.
 
 ```
