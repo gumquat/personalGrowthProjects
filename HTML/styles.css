@@ -1,0 +1,89 @@
+/*reset the box model*/
+box-sizing: border-box;
+
+* {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*edit border styling here*/
+* {
+    border: none;
+}
+
+/*force images to behave*/
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/*reset (most) lists*/
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+    list-style: none;
+}
+
+/*remove inherent left side padding*/
+menu,
+ol,
+ul {
+    padding-left: 0;
+}
+article ol,
+article ul {
+    list-style-position: inside;
+}
+/*enhance link underlines*/
+a {
+    /* Places underlines below the descenders */
+    text-underline-position: under;
+
+
+    /* Sets the thickness as a percentage of the font size */
+    text-decoration-thickness: 8;
+}
+/*change root font size*/
+/* <html> = the root */
+html {
+    font-size: 62.5%; /* (62.5/100) * 16px = 10px */
+}
+
+/*disable text inflation algorithm*/
+html {
+    -webkit-text-size-adjust: none; /* for iOS Safari */
+    text-size-adjust: none; /* for other mobile browsers */
+}
+
+/*enable smooth scrolling*/
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+/*rework focus*/
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/*make elements interactive*/
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox] {
+    cursor: pointer;
+}
+
+/*BODY STYLING*/
+body{
+    background-color: #333;
+    color: whitesmoke;
+}
