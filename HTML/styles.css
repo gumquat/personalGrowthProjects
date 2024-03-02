@@ -49,9 +49,10 @@ a {
 }
 /*change root font size*/
 /* <html> = the root */
-html {
+/* html {
     font-size: 62.5%; /* (62.5/100) * 16px = 10px */
-}
+} 
+*/
 
 /*disable text inflation algorithm*/
 html {
