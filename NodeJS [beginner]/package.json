@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "index_03.js",
+  "scripts": {
+    "start": "node index_03",
+    "dev": "nodemon index_03"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "uninstall": "^0.0.0",
+    "uuid": "^9.0.1",
+    "date-fns": "^8.5.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "nodemon": "^3.1.0"
+  }
+}
