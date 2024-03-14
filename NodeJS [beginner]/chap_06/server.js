@@ -39,7 +39,6 @@ const server = http.createServer((req, res) => {
     myEmitter.emit('log', `${req.url}\t${req.method}`, 'reqLog.txt');
 
     const extension = path.extname(req.url);
-
     let contentType;
 
     switch (extension) {
